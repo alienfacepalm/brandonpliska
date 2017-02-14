@@ -1,22 +1,39 @@
 footer {
 	position: absolute;
+	display: flex;
+	flex-flow: column;
 	background: #000000;
 	color: #ffffff;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	height: 20px;
+	height: 45px;
 	border-top: 1px solid #666;
 	overflow: hidden;
-	li {
-		cursor: pointer
+	.btn-primary {
+		background-color: #000000 !important;
+		background-border: none !important;
 	}
-	.copyright {
+	li {
+		cursor: pointer;
+	}
+	.github {
+		display: flex;
+		flex-flow: column;
 		float: left;
 		padding-left: 30px;
+		img {
+			padding-top: 6px;
+			height: 40px;
+			text-align: center;
+		}
 	}
 	.footer-nav {
+		display: flex;
+		flex-flow: column;
 		float: right;
+		height: 45px;
 		padding-right: 30px;
+		padding-top: 13px;
 	}
 }

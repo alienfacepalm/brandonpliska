@@ -1,6 +1,8 @@
 import React from 'react';
 import moment from 'moment';
 
+import github from '../../assets/github.png';
+
 import './footer.less';
 
 const Footer = props => {
@@ -9,8 +11,8 @@ const Footer = props => {
 	return (
 		<footer>
 			<div className="row">	
-				<div className="col-md-6 text-left copyright">
-					&copy; {year}
+				<div className="col-md-6 text-left github">
+					<a href="http://github.com/alienfacepalm/brandonpliska/" target="_blank"><img src={github} /></a>				
 				</div>
 				<div className="col-md-6 text-right footer-nav">
 					<ul className="list-inline">
