@@ -31,5 +31,14 @@
     "url-loader": "^0.5.7",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alienfacepalm@github.com/alienfacepalm/brandonpliska.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alienfacepalm/brandonpliska/issues"
+  },
+  "homepage": "https://github.com/alienfacepalm/brandonpliska#readme"
 }
