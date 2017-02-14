@@ -2,7 +2,7 @@
   "name": "brandonpliska.zone",
   "version": "1.0.0",
   "description": "Brandon Pliska",
-  "main": "main.js",
+  "main": "main.jsx",
   "scripts": {
     "test": "jest"
   },
