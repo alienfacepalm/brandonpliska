@@ -55,11 +55,11 @@ class App extends React.Component {
 
 	render(){
 		return (
-	 		<div class="row">
+	 		<div className="row">
 	 			<Loader loaded={this.state.loaded} radius={50} width={30} length={50}>
-		 			<Header section={this.state.section} />
+		 			<Header />
 		 			<Menu section={this.state.section} sections={this.sections} navigate={this.navigate} />
-		 			<div class="row">{this.content}</div>
+		 			<div className="row">{this.content}</div>
 		 			<Footer sections={this.sections} navigate={this.navigate} />
 		 		</Loader>
 	 		</div> 		

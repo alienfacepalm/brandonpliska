@@ -1,17 +1,13 @@
 import React from 'react';
-import capitalize from 'capitalize';
+
+import './header.less';
 
 const Header = props => {
-
 	return (
 		<header>
-			<div className="text-center">
-				<h1>Brandon Pliska</h1>
-				<h3>{capitalize(props.section)}</h3>
-			</div>
+			<div className="text-center"></div>
 		</header>
 	);
-
 };
 
 export default Header;
