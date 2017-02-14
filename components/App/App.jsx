@@ -60,7 +60,7 @@ class App extends React.Component {
 		 			<Header />
 		 			<Menu section={this.state.section} sections={this.sections} navigate={this.navigate} />
 		 			<div className="row">{this.content}</div>
-		 			<Footer sections={this.sections} navigate={this.navigate} />
+		 			<Footer section={this.state.section} sections={this.sections} navigate={this.navigate} />
 		 		</Loader>
 	 		</div> 		
 	 	);

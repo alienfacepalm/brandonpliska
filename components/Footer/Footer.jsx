@@ -16,7 +16,12 @@ const Footer = props => {
 				</div>
 				<div className="col-md-6 text-right footer-nav">
 					<ul className="list-inline">
-					{props.sections.map(section => <li key={section.id} onClick={() => props.navigate(section.id)}>{section.text}</li>)}
+					{props.sections.map(section => 
+  				<li key={section.id} 
+  				    className={section.id === props.section ? 'underline' : ''}
+  				    onClick={() => props.navigate(section.id)}>
+					  {section.text}
+					</li>)}
 					</ul>
 				</div>
 			</div>
