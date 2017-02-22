@@ -18,7 +18,7 @@ const Contact = props => {
 };
 
 const copyEmail = event => {
-	toastr.success("My email has been copied to your clipboard. Send me a message!");
+	toastr.success("My email address has been copied to your clipboard. Send me a message!");
 };
 
 export default Contact;
