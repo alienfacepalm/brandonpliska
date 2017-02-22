@@ -1,17 +1,18 @@
 import React from 'react';
+import {Component} from 'react';
 import Loader from 'react-loader';
 
 import Header from '../Header/Header.jsx';
 import Menu from '../Menu/Menu.jsx';
 import Home from '../Home/Home.jsx';
-import Skills from '../Skills/Skills.jsx';
+import Resume from '../Resume/Resume.jsx';
 import Projects from '../Projects/Projects.jsx';
 import Contact from '../Contact/Contact.jsx';
 import Footer from '../Footer/Footer.jsx';
 
 import './app.less';
 
-class App extends React.Component {
+class App extends Component {
 
 	constructor(){
 		super();
@@ -24,7 +25,7 @@ class App extends React.Component {
 		this.sections = [];
 		this.sectionMap = {
 			home: <Home />,
-			skills: <Skills />,
+			resume: <Resume />,
 			projects: <Projects />,
 			contact: <Contact />
 		};
