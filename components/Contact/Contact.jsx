@@ -8,7 +8,7 @@ import './contact.less';
 
 const Contact = props => {
 	return (
-		<div className="col-md-12 text-center section">
+		<div className="col-md-12 text-center section section-title">
 			<h1>Contact</h1>
 			<ClipboardButton className="copy-email" data-clipboard-text="brandon.pliska+resume@gmail.com" onSuccess={copyEmail}>
 		     	<p className="email">brandon.pliska+resume@gmail.com</p>	
